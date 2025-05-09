@@ -3,7 +3,7 @@ def guessing_number():
   print("Welcome to Number Guessing Game!")
   print("User is thinking the number between 1 to 100.")
 
-secert_number = randim.randint(1,100)
+secert_number = random.randint(1,100)
 attempts = 0
 while True:
   try:
