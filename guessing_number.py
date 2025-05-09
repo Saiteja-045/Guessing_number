@@ -1,5 +1,5 @@
 import random
-def guessing_number_game():
+def guessing_number():
   print("Welcome to Number Guessing Game!")
   print("User is thinking the number between 1 to 100.")
 
@@ -21,5 +21,5 @@ while True:
   except ValueError:
     print("Please enter a valid number.")
 
-guessing_number_game()
+guessing_number()
       
